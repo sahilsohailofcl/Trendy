@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  font-family: Noto serif, sans-serif;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: var(--font-family);
+  box-sizing: border-box;
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+
+}
+
+
+
+.announcement-bar {
+  height: 60px;
+  background-color: #684fb7;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.announcement-bar__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.announcement-bar__message {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: Noto serif, sans-serif;
+}
+
+.navbar {
+  min-height: 100px;
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 1px solid #684fb7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+}
+
+.navbar-logo__img {
+  height: 3rem;
+}
+
+.navbar-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items-links {
+  color: #000;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 10px 22px;
+  margin-left: 20px;
+}
+
+.nav-items-links:first-child {
+  margin: 0;
+}
+
+.nav-items-links:hover {
+  background-color: #684fb7;
+  color: #fff;
+  border-radius: 10px;
+}
+
+
+.nav-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-icons__items {
+  height: 1.4rem;
+}s
+
+.main {
+  background-color: #fff;
+  color: #000;
+  min-height: 600px;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+  gap: 2rem;
+}
+
+.hero-section__title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+.hero-section__discription {
+  font-size: 26px;
+  font-weight: 400px;
+
+}
+
+.hero-section__CTA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #684fb7;
+  padding: 10px;
+  border-radius: 10px;
+  gap: 0.6rem;
+}
+
+.hero-section__btn {
+  color: #fff;
+}
+
+.hero-section__icon {
+  color: #000;
+  background-color: #fff;
+  backdrop-filter: blur(5px);
+  border-radius: 50%;
+}
